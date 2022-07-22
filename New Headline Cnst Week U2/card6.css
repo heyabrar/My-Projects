@@ -1,0 +1,209 @@
+body{
+    background-color: rgb(243, 237, 237);
+}
+
+#navbar{
+    height: auto;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 60px;
+    }
+    
+    /*uppernavbar starts here*/
+    #uppernav{
+    height: 50px;
+    width: 100%;
+    background-color: #03A9Fa;
+    display: flex;
+    }
+    #navlogo{
+    margin-top: 5px;
+    height: 70%;
+    width: 200px;
+    margin-left: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex ;
+    }
+    #navlogo:hover{
+    cursor: pointer;
+    }
+    
+    .logoimg{
+    height: 100%;
+    width: 100%;
+    }
+    .info{
+    height: 50px;
+    width: 500px;
+    margin-left: 20px;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: BentonSans,Arial,Noto Sans,sans-serif;
+    font: bold;
+    }
+    .info>div{
+    height: 30px;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    }
+    
+    .info>div:hover{
+    cursor: pointer;
+    }
+    
+    .left-logo{
+    height: 50px;
+    width: 200px;
+    margin-left: 350px;
+    display: flex;
+    align-items: center;
+    }
+    
+    .left-logo>div:hover{
+    cursor: pointer;
+    }
+    .left-logo>div{
+    height: 40px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: BentonSans,Arial,Noto Sans,sans-serif;
+    font: bold;
+    font-size: 14px;
+    }
+    .multi-icon{
+    height: 40px;
+    width: 40px;
+    }
+    .search-icon{
+    height: 40px;
+    width: 40px;
+    }
+    #container{
+        height: auto;
+        width: 90%;
+        margin: auto;
+        display: flex;
+    }
+
+    #leftcontainer{
+        height: 100%;
+        width: 69%;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    #leftcontainer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        row-gap: 20px;
+    }
+
+    #leftcontainer:hover{
+        cursor: pointer;
+    }
+
+    .image{
+        overflow: hidden;
+        margin: 0 auto;
+        margin-left: 5px;
+        border-radius: 15px;
+    }
+
+    .image>h2{
+        font-family: BentonSans,Arial,Noto Sans,sans-serif;
+        margin-left: 20px;
+    }
+
+    .image>img{
+        border-radius: 15px;
+        height: 90%;  
+        margin-left: 10px;
+        transition: 0.3s all ease-in-out;
+    }
+
+    .image>img:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+
+    .content{
+        margin-left: -90px;
+        font-family: BentonSans,Arial,Noto Sans,sans-serif;
+    
+    }
+    .content>b{
+        font-size: 16px;
+        margin-left: 8px;
+    }
+    .content>p{
+        margin-left: 10px;
+        font-size: 14px;
+        margin-top: 5px;
+        line-height: 20px;
+    }
+    .content>p+p{
+        color: gray;
+    }
+
+    #rightcontainer{
+        height: 100%;
+        width: 28%;
+        margin-left: 32px;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        border-radius: 10px;
+        background-color: white;
+    }
+
+    #rightcontainer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        row-gap: 10px;
+    }
+    .rightimg{
+        overflow: hidden;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+
+    .rightimg>img{
+        border-radius: 10px;
+        margin-right: 80px; 
+        transition: 0.2s all ease-in-out;
+    }
+
+    .rightimg>img:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+
+    .rightimg>h3{
+        font-family: BentonSans,Arial,Noto Sans,sans-serif;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .rightcontent>p{
+        margin-top: 5px;
+        margin-left: -75px;
+        font-size: 14px;
+        font-family: BentonSans,Arial,Noto Sans,sans-serif;
+        line-height: 20px;
+    }
+
+    .rightcontent>p+p{
+        color: gray;
+        font-size: 12px;
+        margin-top: -10px;
+    }
