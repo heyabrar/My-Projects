@@ -1,4 +1,4 @@
-import { Box, Container, Img, SimpleGrid, Stack, Text } from "@chakra-ui/react";
+    import { Box, Container, Img, SimpleGrid, Stack, Text } from "@chakra-ui/react";
 import { useContext } from "react"
 import { Context } from "../Context/ContextProvider"
 
