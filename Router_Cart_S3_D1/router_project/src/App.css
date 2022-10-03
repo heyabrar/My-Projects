@@ -1,0 +1,588 @@
+.NavOutterDiv{
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  background-color: white;
+}
+
+.NavDiscountDiv{
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(197, 194, 194, 0.6);
+  word-spacing: 5px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.NavDiscountDiv p {
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  line-height: 50px;
+  text-align: center; 
+  transform:translateX(100%);
+  animation: scroll-left 20s linear infinite;
+ }
+ @keyframes scroll-left {
+  0%   {
+  transform: translateX(100%); 		
+  }
+  100% {
+  transform: translateX(-100%); 
+  }
+ }
+
+.NavDiv{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40px;
+  font-weight: 600;
+}
+
+.dummy{
+  height: 80px;
+}
+
+.BannerSimpleGrid1{
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.BannerSimpleGrid1ColumnFlip{
+  display: grid;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.SimpleGrid1Box1{
+  width: 90%;
+  margin: auto;
+}
+
+.BannerImage1{
+  width: 550px;
+}
+
+.SimpleGrid1Box1>p{
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+  width: 65%;
+  margin: auto;
+}
+
+.BannerShopButtonBox{
+  width: 20%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.BannerShopButton{
+  background-color: white;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.FooterSimpleGrid1{
+  color: white;
+  background-color: black;
+  margin-top: 20px;
+}
+
+.FooterSocialSimpleGrid{
+width: 80%;
+font-size: 20px;
+}
+
+.FooterBox{
+  width: 70%;
+  margin: auto;
+  line-height: 35px;
+  margin-top: 20px;
+}
+
+.Collection{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.HomeMensDataSimpleGrid{
+  margin-top: 20px;
+}
+
+.HomeMensDataBox{
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+}
+
+.HomeDataImage{
+  width: 180px;
+  height: 220px;
+}
+
+.HomeMensDataBox>h3{
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.HomeTabs{
+  width: 80%;
+}
+
+.ScrollTitle{
+  font-size: 25px;
+}
+
+.ThisWeekH1{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 30px;
+  font-weight: 500;
+}
+
+.MainPageSimpelGridBanner{
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.MainPageBannerBox{
+  width: 90%;
+  margin: auto;
+}
+
+.MensCollectionH1{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 550;
+  margin-top: 5%;
+}
+
+.MainPageProdcutsSimpleGrid{
+  width: 90%;
+  margin: auto;
+  margin-top: 3%;
+  gap: 40px;
+}
+
+.MainPageProdcutsBox{
+  width:90%;
+  margin: auto;
+  line-height: 30px;
+}
+
+.MainPageProdcutsBox > img{
+  height: 220px;
+  width: 180px;
+  margin-left: 17%;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.MainPageProdcutsBox > h4{
+  font-weight: 550;
+  margin-left: 17%;
+  margin-top: 10px;
+}
+
+.MainPageProdcutsBox>p{
+  margin-left: 17%;
+}
+
+.ShopButton{
+  margin-left: 17%;
+  font-size: 14px;
+  width: 60px;
+  border: 1px solid gray;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.ShopButton:hover{
+  background-color: rgba(197, 194, 194, 0.6);
+}
+
+.PaginationDiv{
+  width: 10%;
+  margin-top: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.PreviousButton, .NextButton{
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.PreviousButton{
+  color: black;
+  border: 1px solid white;
+}
+
+.ModalContentDiv{
+  width: 80%;
+  margin: auto;
+  line-height: 25px;
+}
+
+.ModalContentDiv>img{
+  width: 230px;
+  height: 300px;
+  margin-left: 12%;
+  border-radius: 5px;
+  border: 2px solid black;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.ModalContentDiv>h4{
+  margin-left: 12%;
+  margin-top: 10px;
+  font-weight: 550;
+}
+
+.ModalContentDiv>p{
+  margin-left: 12%;
+}
+
+.LoginH1{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 550;
+  margin-top: 1%;
+}
+
+.LoginDiv{
+  width: 20%;
+  margin: auto;
+  margin-top: 2%;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.LoginDiv>input{
+  border: 1px solid gray;
+  margin-top: 20px;
+  margin-left: 15%;
+}
+
+.LoginDiv>p{
+  margin-left: 15%;
+}
+
+.LoginButton{
+  margin-left: 35%;
+  border:   1px solid black;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.LoginButton:hover{
+  background-color: rgba(197, 194, 194, 0.6);
+}
+
+
+.AboutContent{
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.Heading{
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.ErrorDiv{
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 2%;
+}
+
+.ErrorLogoDiv{
+  width: 20%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+}
+
+.LogOutBtn{
+  width: 4%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.LogOutBtn>button{
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+@media (max-width : 451px){
+
+  .NavDiscountDiv{
+    padding: 10px;   
+  }
+
+  .NavDiscountDiv p{
+    margin-top: 50px;
+    font-size: 12px;
+    width: 90%;
+  }
+
+  .NavDiv{
+    width: 98%;
+    font-weight: 500;
+    font-size: 12px;
+    justify-content: space-around;
+  }
+
+  .DarkMode{
+    font-size: 14px;
+    width:8%; 
+    justify-content: center;
+  }
+
+  .Switch{
+    font-size: 14px;
+  }
+
+  .BannerSimpleGrid1ColumnFlip{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+
+  .SimpleGrid1Box1{
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .SimpleGrid1Box1>p{
+    font-size: 18px;
+  }
+
+  .BannerShopButtonBox{
+    width: 30%;
+    margin: auto;
+    margin-top: 15px;
+  }
+
+  .BannerShopButton{
+    border: 1px solid gray;
+    padding: 2px;
+    border-radius: 2px;
+    font-size: 14px;
+  }
+
+  .HomeMensDataSimpleGrid{
+    row-gap: 30px;
+  }
+
+  .HomeMensDataBox{
+    height: 300px;
+  }
+
+  .HomeDataImage{
+    height: 200px;
+  }
+
+  .HomeMensDataBox>h3{
+    font-weight: 500;
+    font-size: 16px;
+  } 
+
+  .Collection{
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .ThisWeekH1{
+    font-size: 20px;
+  }
+
+  .MensCollectionH1{
+    font-size: 20px;
+  }
+
+  .MainPageProdcutsSimpleGrid{
+    width: 100%;
+    gap: 0;
+    row-gap: 30px;
+  }
+
+  .MainPageProdcutsBox{
+    margin: auto;
+    height: 330px;
+    line-height: 25px;
+  }
+
+  .MainPageProdcutsBox>img{
+    height: 210px;
+    width: 95%;
+    margin-left: 5px;
+  }
+
+  .MainPageProdcutsBox>h4{
+    margin-left: 5px;
+  }
+
+  .MainPageProdcutsBox>p{
+    margin-left: 5px;
+  }
+
+  .ShopButton{
+    margin-left: 5px;
+  }
+
+  .PaginationDiv{
+    width: 30%;
+    margin-top: 30px;
+  }
+
+  .LogOutBtn{
+    width: 17%;
+    margin: auto;
+    margin-top: 40px;
+  }
+
+  .LoginDiv{
+    width: 50%;
+  }
+
+  .LoginDiv>input{
+    width: 150%;
+    margin-left: 0;
+  }
+
+  .LoginDiv>p{
+    margin-left: 0;
+  }
+
+
+  .LoginButton{
+    padding: 3px;
+    margin-left: 0;
+  }
+
+  .Heading{
+    font-size: 18px;
+  }
+
+  .ErrorDiv{
+    width: 80%;
+    font-size: 30px;
+  }
+}
+
+@media (max-width : 825px){
+
+  .SimpleGrid1Box1>p{
+    font-size: 22px;
+    width: 80%;
+  }
+
+  .BannerShopButtonBox{
+    width: 40%;
+  }
+
+  .Collection{
+    font-size: 23px;
+  }
+
+  .HomeMensDataBox{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+  }
+
+  .HomeDataImage{
+    height: 180px;
+    border-radius: 5px;
+  }
+
+  .HomeMensDataBox>h3{
+    font-size: 16px;
+  }
+
+  .ShowMore{
+    font-size: 14px;
+  }
+
+  .MainPageProdcutsSimpleGrid{
+    width: 100%;
+    gap: 0;
+    row-gap: 30px;
+  }
+
+  .MainPageProdcutsBox{
+    height: 370px;
+  }
+
+  .MainPageProdcutsBox>img{
+    margin-left: 0;
+  }
+
+  .MainPageProdcutsBox>h4{
+    margin-left: 0;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .MainPageProdcutsBox>p{
+    margin-left: 0;
+  }
+
+  .ShopButton{
+    margin-left: 0px;
+  }
+
+  .PaginationDiv{
+    width: 20%;
+    margin-top: 40px;
+  }
+
+  .LogOutBtn{
+    width: 8%;
+    margin: auto;
+    margin-top: 40px;
+  }
+
+  .LoginDiv{
+    width: 40%;
+  }
+
+  .ErrorDiv{
+    width: 60%;
+  }
+}
