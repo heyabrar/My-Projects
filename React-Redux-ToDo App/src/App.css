@@ -1,0 +1,38 @@
+
+.Status{
+  font-size: 25px;
+}
+
+.AddTodoCompo{
+  width: 40%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  gap: 20px;
+}
+
+.InputBox{
+  height: 20px;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.AddButton{
+  cursor: pointer;
+  border: 0px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.AddButton:hover{
+  color: white;
+  background-color: black;
+}
+
+.ToggleButton, .DeleteButton{
+  cursor: pointer;
+  font-size: 25px;
+}

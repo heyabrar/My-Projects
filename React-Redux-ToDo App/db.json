@@ -1,0 +1,19 @@
+{
+  "todoApp": [
+    {
+      "title": "Alhamdulillah",
+      "status": false,
+      "id": 1
+    },
+    {
+      "title": "Sleep",
+      "status": true,
+      "id": 2
+    },
+    {
+      "title": "Good Job",
+      "status": false,
+      "id": 3
+    }
+  ]
+}
