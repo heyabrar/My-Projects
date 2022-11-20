@@ -1,0 +1,54 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.MainDiv {
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+.InnerDiv{
+    width: 75%;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    gap: 20px;
+    padding: 30px;
+}
+
+#play_icon{
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 30px;
+}
+
+.ContentDiv{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+@media all and (max-width : 451px){
+    .MainDiv{
+        border: 2px solid white;
+        height: 915px;
+    }
+
+    .InnerDiv{
+        width: 80%;
+        margin: auto;
+    }
+
+    .InnerDiv > img {
+         width: 300px;
+    }
+
+    .ContentDiv > h1{
+        font-size: 25px;
+        text-align: center;
+    }
+}
